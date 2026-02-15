@@ -1,9 +1,9 @@
 ## Overview
 
-This repo contains tools to generate images of the discs to play tracks using
-toy educational phonograph. Please follow [the
-link](https://vsbogd.github.io/phonograph/disc.html) to generate and print the
-discs.
+This repo contains various tools for working with toy educational phonograph:
+- [disc generator page](https://vsbogd.github.io/phonograph/disc.html) to
+  generate and print the discs
+- `smp2mp3.py` utility to decode/encode .smp files from the device
 
 ## Disc code
 
