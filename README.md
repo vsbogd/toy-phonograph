@@ -18,10 +18,11 @@ which is followed by 6 degrees white sector. After the most significant bit
 the black sector and before the least significant bit there is a big white
 area.
 
-## Possible tracks
+## Available tracks
 
 First Chinese track has code 1. Last official Chinese disc has code 97. The
-total number of Chinese tracks is 288.
+total number of Chinese tracks is 288, thus there are 191 additional Chinese
+track in the device.
 
 First English track has code 587. Last English disc has code 682. There are
 only 96 English tracks.
