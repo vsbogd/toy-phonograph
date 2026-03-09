@@ -191,17 +191,20 @@
         ctx.stroke();
       }
 
-      function drawDiscFront(ctx, x, y, text) {
+      function drawDiscFront(ctx, x, y, id, text) {
         x += disc_radius;
         y += disc_radius;
         drawDiscBorder(ctx, x, y);
         drawDiscCenter(ctx, x, y);
 
-        y -= triangle_height;
         ctx.fillStyle = 'black';
         ctx.font = mmToPx(5) + 'px sans-serif';
         ctx.textAlign = 'center';
+
+        y -= triangle_height;
         ctx.fillText(text, x, y);
+        y += 2 * triangle_height + mmToPx(5);
+        ctx.fillText(id, x, y);
       }
 
       function clearCtx(ctx) {
@@ -247,7 +250,8 @@
           id = LANGS[lang][0] + num;
           code = addCrc(id);
           drawDiscBack(back_ctx, x, y, code);
-          drawDiscFront(front_ctx, front_ctx.canvas.width - x - disc_diameter, y, title);
+          drawDiscFront(front_ctx, front_ctx.canvas.width - x - disc_diameter,
+            y, lang + '-' + num, title);
           x += disc_diameter;
           if (x + disc_diameter + margins.width > back_ctx.canvas.width) {
             x = margins.width;
