@@ -242,12 +242,13 @@
         y = margins.height;
         for (let i = 0; i < discs.length; i++) {
           lang = discs[i][0];
-          num = discs[i][1];
+          num = parseInt(discs[i][1]);
           title = discs[i][2].trim();
           if (title.length == 0) {
             title = '' + lang + '-' + num;
           }
           id = LANGS[lang][0] + num;
+          //console.log("lang: " + lang + ", num: " + num + ", id: " + id);
           code = addCrc(id);
           drawDiscBack(back_ctx, x, y, code);
           drawDiscFront(front_ctx, front_ctx.canvas.width - x - disc_diameter,
