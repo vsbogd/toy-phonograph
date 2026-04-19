@@ -30,3 +30,8 @@ only 96 English tracks.
 
 First DIY track has code 577. Despite there are only 8 DIY discs in a standard
 box, there are 2 additional discs. The total number of DIY discs is 10.
+
+## Chip
+
+[JieLie chip marks](https://github.com/kagaimiq/jielie/blob/main/chips/chip-marks.md)
+[JL AC6965E](https://github.com/kagaimiq/jielie/blob/main/chips/br25/index.md#ac696n)
