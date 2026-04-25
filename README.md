@@ -35,3 +35,9 @@ box, there are 2 additional discs. The total number of DIY discs is 10.
 
 [JieLie chip marks](https://github.com/kagaimiq/jielie/blob/main/chips/chip-marks.md)
 [JL AC6965E](https://github.com/kagaimiq/jielie/blob/main/chips/br25/index.md#ac696n)
+
+## Example
+
+[french_poems_for_toddlers directory](/french_poems_for_toddlers) contains an
+example of the content which can be added to the device. The directory contains
+ready to upload SMP files and PDF file with disc images.
