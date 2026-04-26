@@ -21,7 +21,7 @@ area.
 
 ## Available tracks
 
-First Chinese track has code 1. Last official Chinese disc has code 97. The
+First Chinese track has code 1. Last official Chinese disc has code 96. The
 total number of Chinese tracks is 288, thus there are 191 additional Chinese
 track in the device.
 
