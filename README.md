@@ -1,5 +1,7 @@
 ## Overview
 
+The post about toy phonograph [in Russian](https://habr.com/ru/articles/1028040/).
+
 This repo contains various tools for working with toy educational phonograph:
 - [disc generator page](https://vsbogd.github.io/toy-phonograph/disc.html) to
   generate and print the discs
